@@ -26,6 +26,5 @@ public class Attribute {
         item.pcs = 1;
         item.armor = 1000;
         item.speed = 10;
-
     }
 }
