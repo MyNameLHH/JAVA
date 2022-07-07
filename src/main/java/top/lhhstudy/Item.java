@@ -13,7 +13,6 @@ package top.lhhstudy;
 ³¤½£ 350
 */
 public class Item {
-
     String name;
     int price;
 
