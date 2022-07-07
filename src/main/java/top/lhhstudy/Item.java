@@ -13,8 +13,8 @@ package top.lhhstudy;
 长剑 350
 */
 public class Item {
-    String name;
-    int price;
+    String name; //名字
+    int price; //价格
 
     public static void main(String[] args) {
         Item item1 = new Item();
