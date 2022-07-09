@@ -1,11 +1,11 @@
-package top.lhhstudy;
+package top.lhhstudy.oop;
 /*
 为英雄类Hero设计几个新的方法：
 1. 超神 legendary(),无参数，无返回类型
 2. 获取当前的血量 getHp(), 无参数，有float类型的返回值
 3. 回血 recovery(float blood)， 有参数 float类型参数 blood表示本次恢复的血量，无返回类型
 * */
-public class Hero {
+public class 方法 {
     String name; //名称
     int hp; //血量
     int armor; //护甲
@@ -28,12 +28,12 @@ public class Hero {
     }
 
     public static void main(String[] args) {
-        Hero hero = new Hero();
-        hero.name = "盖亚";
-        hero.hp = 10;
-        hero.legendary();
-        hero.getHp();
-        hero.recovery(20);
+        方法 方法 = new 方法();
+        方法.name = "盖亚";
+        方法.hp = 10;
+        方法.legendary();
+        方法.getHp();
+        方法.recovery(20);
     }
 
 }

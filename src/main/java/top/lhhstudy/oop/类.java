@@ -1,4 +1,4 @@
-package top.lhhstudy;
+package top.lhhstudy.oop;
 /*
 * 设计出物品这种类
 类名：Item
@@ -12,20 +12,20 @@ package top.lhhstudy;
 草鞋 300
 长剑 350
 */
-public class Item {
+public class 类 {
     String name; //名字
     int price; //价格
 
     public static void main(String[] args) {
-        Item item1 = new Item();
+        类 item1 = new 类();
         item1.name = "血瓶";
         item1.price = 50;
 
-        Item item2 = new Item();
+        类 item2 = new 类();
         item2.name = "草鞋";
         item2.price = 300;
 
-        Item item3 = new Item();
+        类 item3 = new 类();
         item3.name = "长剑";
         item3.price = 350;
 

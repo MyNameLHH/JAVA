@@ -1,4 +1,4 @@
-package top.lhhstudy;
+package top.lhhstudy.oop;
 /*
 * 一个英雄可以有名称，血量，护甲，移动速度，还有 其他你想到的，作为新的属性，加入到英雄上面
     比如
@@ -12,7 +12,7 @@ package top.lhhstudy;
     被杀后说的话
 *
 * */
-public class Attribute {
+public class 属性 {
     String name; //名称
     int hp; //血量
     int armor; //护甲
@@ -20,7 +20,7 @@ public class Attribute {
     int pcs; //送了多少个
 
     public static void main(String[] args) {
-        Attribute item = new Attribute();
+        属性 item = new 属性();
         item.name = "盖亚";
         item.hp = 100;
         item.pcs = 1;
